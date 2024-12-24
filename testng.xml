@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demowebshop Regression suite">
+    <parameter name="browser" value="chrome"> </parameter>
+    <test name="Regression Test">
+
+        <classes>
+
+            <class name="Tests.UserRegisterationTest"> </class>
+
+            <class name="Tests.UserLoginTest"> </class>
+            
+            <class name="Tests.ChangePasswordTest"> </class>
+
+            <class name="Tests.SearchProductTest"> </class>
+
+            <class name="Tests.SearchProductUsingAutoSuggestTest"> </class>
+
+            <class name="Tests.ProductHoverMenuTest"> </class>
+
+            <class name="Tests.AddProductReviewTest"> </class>
+
+            <class name="Tests.CompareProductTest"> </class>
+
+            <class name="Tests.AddProductToshoppingCartTest"> </class>
+
+            <class name="Tests.AddProductToWishListTest"> </class>
+
+            <class name="Tests.UserCheckoutProductTest"> </class>
+
+            <class name="Tests.CheckoutProductAsGuestTest"> </class>
+
+            <class name="Tests.ContactUsTest"> </class>
+
+            <class name="Tests.EmailFriendTest"> </class>
+
+
+
+        </classes>
+    </test>
+</suite>
